@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564377421BA0B57B00A37EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377411BA0B57B00A37EB0 /* AppDelegate.swift */; };
+		564377471BA0B57B00A37EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564377451BA0B57B00A37EB0 /* Main.storyboard */; };
+		564377491BA0B57B00A37EB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564377481BA0B57B00A37EB0 /* Images.xcassets */; };
+		5643774C1BA0B57B00A37EB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5643774A1BA0B57B00A37EB0 /* LaunchScreen.xib */; };
+		564377581BA0B57B00A37EB0 /* zangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377571BA0B57B00A37EB0 /* zangoTests.swift */; };
+		564377621BA0BCDD00A37EB0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377611BA0BCDD00A37EB0 /* UserManager.swift */; };
+		564377641BA25C9A00A37EB0 /* DataTabkeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377631BA25C9A00A37EB0 /* DataTabkeTableViewController.swift */; };
+		564377661BA27AB800A37EB0 /* TableCellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564377651BA27AB800A37EB0 /* TableCellNib.xib */; };
+		564377681BA27AD700A37EB0 /* cellViewExtdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377671BA27AD700A37EB0 /* cellViewExtdTableViewCell.swift */; };
+		5643776B1BA323B400A37EB0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643776A1BA323B400A37EB0 /* SwiftyJSON.swift */; };
+		564377791BAB593300A37EB0 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564377771BAB593300A37EB0 /* AddressTableViewCell.swift */; };
+		5643777A1BAB593300A37EB0 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564377781BAB593300A37EB0 /* AddressTableViewCell.xib */; };
+		5643777C1BAB665100A37EB0 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643777B1BAB665100A37EB0 /* DetailsTableViewController.swift */; };
+		5643777E1BAB9D7500A37EB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5643777D1BAB9D7500A37EB0 /* MapKit.framework */; };
+		564377811BABCC4400A37EB0 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643777F1BABCC4400A37EB0 /* DetailsTableViewCell.swift */; };
+		564377821BABCC4400A37EB0 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564377801BABCC4400A37EB0 /* DetailsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564377521BA0B57B00A37EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564377341BA0B57B00A37EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5643773B1BA0B57B00A37EB0;
+			remoteInfo = zango;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5643773C1BA0B57B00A37EB0 /* zango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564377401BA0B57B00A37EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564377411BA0B57B00A37EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564377461BA0B57B00A37EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564377481BA0B57B00A37EB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5643774B1BA0B57B00A37EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		564377511BA0B57B00A37EB0 /* zangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564377561BA0B57B00A37EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564377571BA0B57B00A37EB0 /* zangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zangoTests.swift; sourceTree = "<group>"; };
+		564377611BA0BCDD00A37EB0 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		564377631BA25C9A00A37EB0 /* DataTabkeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTabkeTableViewController.swift; sourceTree = "<group>"; };
+		564377651BA27AB800A37EB0 /* TableCellNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCellNib.xib; sourceTree = "<group>"; };
+		564377671BA27AD700A37EB0 /* cellViewExtdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellViewExtdTableViewCell.swift; sourceTree = "<group>"; };
+		5643776A1BA323B400A37EB0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		564377771BAB593300A37EB0 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		564377781BAB593300A37EB0 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		5643777B1BAB665100A37EB0 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		5643777D1BAB9D7500A37EB0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5643777F1BABCC4400A37EB0 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		564377801BABCC4400A37EB0 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564377391BA0B57B00A37EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643777E1BAB9D7500A37EB0 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643774E1BA0B57B00A37EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564377331BA0B57B00A37EB0 = {
+			isa = PBXGroup;
+			children = (
+				5643777D1BAB9D7500A37EB0 /* MapKit.framework */,
+				5643773E1BA0B57B00A37EB0 /* zango */,
+				564377541BA0B57B00A37EB0 /* zangoTests */,
+				5643773D1BA0B57B00A37EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5643773D1BA0B57B00A37EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5643773C1BA0B57B00A37EB0 /* zango.app */,
+				564377511BA0B57B00A37EB0 /* zangoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5643773E1BA0B57B00A37EB0 /* zango */ = {
+			isa = PBXGroup;
+			children = (
+				56E277971BAFC74100A39F93 /* Model */,
+				56E2779A1BAFC7DA00A39F93 /* View */,
+				56E277991BAFC78F00A39F93 /* Controller */,
+				56E2779B1BAFC84D00A39F93 /* Resource */,
+				5643773F1BA0B57B00A37EB0 /* Supporting Files */,
+			);
+			path = zango;
+			sourceTree = "<group>";
+		};
+		5643773F1BA0B57B00A37EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564377401BA0B57B00A37EB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564377541BA0B57B00A37EB0 /* zangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				564377571BA0B57B00A37EB0 /* zangoTests.swift */,
+				564377551BA0B57B00A37EB0 /* Supporting Files */,
+			);
+			path = zangoTests;
+			sourceTree = "<group>";
+		};
+		564377551BA0B57B00A37EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564377561BA0B57B00A37EB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564377691BA3238D00A37EB0 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				5643776A1BA323B400A37EB0 /* SwiftyJSON.swift */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		56E277971BAFC74100A39F93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				564377611BA0BCDD00A37EB0 /* UserManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		56E277991BAFC78F00A39F93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				564377411BA0B57B00A37EB0 /* AppDelegate.swift */,
+				564377691BA3238D00A37EB0 /* network */,
+				5643777B1BAB665100A37EB0 /* DetailsTableViewController.swift */,
+				564377631BA25C9A00A37EB0 /* DataTabkeTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		56E2779A1BAFC7DA00A39F93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				564377671BA27AD700A37EB0 /* cellViewExtdTableViewCell.swift */,
+				564377771BAB593300A37EB0 /* AddressTableViewCell.swift */,
+				5643777F1BABCC4400A37EB0 /* DetailsTableViewCell.swift */,
+				564377451BA0B57B00A37EB0 /* Main.storyboard */,
+				5643774A1BA0B57B00A37EB0 /* LaunchScreen.xib */,
+				564377651BA27AB800A37EB0 /* TableCellNib.xib */,
+				564377781BAB593300A37EB0 /* AddressTableViewCell.xib */,
+				564377801BABCC4400A37EB0 /* DetailsTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		56E2779B1BAFC84D00A39F93 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				564377481BA0B57B00A37EB0 /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5643773B1BA0B57B00A37EB0 /* zango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643775B1BA0B57B00A37EB0 /* Build configuration list for PBXNativeTarget "zango" */;
+			buildPhases = (
+				564377381BA0B57B00A37EB0 /* Sources */,
+				564377391BA0B57B00A37EB0 /* Frameworks */,
+				5643773A1BA0B57B00A37EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zango;
+			productName = zango;
+			productReference = 5643773C1BA0B57B00A37EB0 /* zango.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564377501BA0B57B00A37EB0 /* zangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643775E1BA0B57B00A37EB0 /* Build configuration list for PBXNativeTarget "zangoTests" */;
+			buildPhases = (
+				5643774D1BA0B57B00A37EB0 /* Sources */,
+				5643774E1BA0B57B00A37EB0 /* Frameworks */,
+				5643774F1BA0B57B00A37EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564377531BA0B57B00A37EB0 /* PBXTargetDependency */,
+			);
+			name = zangoTests;
+			productName = zangoTests;
+			productReference = 564377511BA0B57B00A37EB0 /* zangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564377341BA0B57B00A37EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "boby thomas";
+				TargetAttributes = {
+					5643773B1BA0B57B00A37EB0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					564377501BA0B57B00A37EB0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5643773B1BA0B57B00A37EB0;
+					};
+				};
+			};
+			buildConfigurationList = 564377371BA0B57B00A37EB0 /* Build configuration list for PBXProject "zango" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564377331BA0B57B00A37EB0;
+			productRefGroup = 5643773D1BA0B57B00A37EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5643773B1BA0B57B00A37EB0 /* zango */,
+				564377501BA0B57B00A37EB0 /* zangoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5643773A1BA0B57B00A37EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564377471BA0B57B00A37EB0 /* Main.storyboard in Resources */,
+				5643777A1BAB593300A37EB0 /* AddressTableViewCell.xib in Resources */,
+				564377821BABCC4400A37EB0 /* DetailsTableViewCell.xib in Resources */,
+				5643774C1BA0B57B00A37EB0 /* LaunchScreen.xib in Resources */,
+				564377661BA27AB800A37EB0 /* TableCellNib.xib in Resources */,
+				564377491BA0B57B00A37EB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643774F1BA0B57B00A37EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564377381BA0B57B00A37EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564377791BAB593300A37EB0 /* AddressTableViewCell.swift in Sources */,
+				564377641BA25C9A00A37EB0 /* DataTabkeTableViewController.swift in Sources */,
+				564377681BA27AD700A37EB0 /* cellViewExtdTableViewCell.swift in Sources */,
+				564377421BA0B57B00A37EB0 /* AppDelegate.swift in Sources */,
+				5643776B1BA323B400A37EB0 /* SwiftyJSON.swift in Sources */,
+				5643777C1BAB665100A37EB0 /* DetailsTableViewController.swift in Sources */,
+				564377811BABCC4400A37EB0 /* DetailsTableViewCell.swift in Sources */,
+				564377621BA0BCDD00A37EB0 /* UserManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5643774D1BA0B57B00A37EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564377581BA0B57B00A37EB0 /* zangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564377531BA0B57B00A37EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5643773B1BA0B57B00A37EB0 /* zango */;
+			targetProxy = 564377521BA0B57B00A37EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564377451BA0B57B00A37EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564377461BA0B57B00A37EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5643774A1BA0B57B00A37EB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5643774B1BA0B57B00A37EB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564377591BA0B57B00A37EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5643775A1BA0B57B00A37EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5643775C1BA0B57B00A37EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5643775D1BA0B57B00A37EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5643775F1BA0B57B00A37EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zango.app/zango";
+			};
+			name = Debug;
+		};
+		564377601BA0B57B00A37EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zango.app/zango";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564377371BA0B57B00A37EB0 /* Build configuration list for PBXProject "zango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564377591BA0B57B00A37EB0 /* Debug */,
+				5643775A1BA0B57B00A37EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5643775B1BA0B57B00A37EB0 /* Build configuration list for PBXNativeTarget "zango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643775C1BA0B57B00A37EB0 /* Debug */,
+				5643775D1BA0B57B00A37EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5643775E1BA0B57B00A37EB0 /* Build configuration list for PBXNativeTarget "zangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643775F1BA0B57B00A37EB0 /* Debug */,
+				564377601BA0B57B00A37EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564377341BA0B57B00A37EB0 /* Project object */;
+}
